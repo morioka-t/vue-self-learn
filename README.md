@@ -1,9 +1,15 @@
 ## 利用ソフトウェア
+
 ・Vitual studio Code
+
 　→　開発しやすいエディタで実装するため
+
 ・Ubuntu　24.04
+
 　→　Windowsで開発を行うため
+
 ・xampp　8.2.4-0
+
 　→　ローカルでDBサーバを立ち上げるため
 
 # my-project
