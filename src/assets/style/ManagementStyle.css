@@ -1,0 +1,34 @@
+.manage-back-button:hover {
+  background-color: #b6b1f6 !important;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 700px; /* ボタンと検索欄の間のスペース */
+}
+
+.search-field {
+  max-width: 400px; /* または任意の幅を指定 */
+}
+
+.v-data-table {
+  margin-top: 20px;
+}
+
+.update-button-btn, .delete-button {
+  margin: 10px;
+}
+
+.modal-title {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.modal-text {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 24px;
+}

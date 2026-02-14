@@ -1,0 +1,53 @@
+.register {
+  background-color: #f9c6c6;
+  padding: 1.5em;
+  width: 100%;
+  max-height: 560px;
+  max-width: 500px;
+  margin: 0.5em auto;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+}
+  
+h2 {
+  text-align: center;
+  margin-bottom: 1.5em;
+  margin-top: 0;
+  color: #333;
+}
+  
+.form-item {
+  margin-bottom: 0.5em;
+  display: flex;
+  flex-direction: column;
+}
+  
+label {
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  color: #444;
+}
+
+.register-button, .back-button {
+  display: block;
+  width: 100%;
+  background-color: #ffc107 !important;
+  border: solid;
+  padding: 0.75em;
+  margin: 1.0em auto;
+  border-radius: 4px;
+  font-size: 1.2em;
+  font-weight: bold !important;
+  cursor: pointer;
+  color: #333;
+  transition: background-color 0.3s;
+}
+  
+.register-button:hover, .back-button:hover {
+  background-color: #b6b1f6 !important;
+}
+
+#register-username, #register-password, #register-email {
+  box-shadow: 0px 0px 100px 100px #f9c6c6 inset
+}
