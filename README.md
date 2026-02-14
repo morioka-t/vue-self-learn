@@ -1,24 +1,27 @@
+## 利用ソフトウェア
+・Vitual studio Code
+　→　開発しやすいエディタで実装するため
+・Ubuntu　24.04
+　→　Windowsで開発を行うため
+・xampp　8.2.4-0
+　→　ローカルでDBサーバを立ち上げるため
+
 # my-project
 
 ## Project setup
 ```
+apt install cmdtest
+
 yarn install
 ```
 
 ### Compiles and hot-reloads for development
 ```
+apt install npm
+
+npm install
+
 yarn serve
-```
 
-### Compiles and minifies for production
+npm run serve
 ```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
